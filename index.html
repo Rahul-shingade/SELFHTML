@@ -1,16 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=clear, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rahul_Developer Profilo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="app.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(7, 7, 44);
+            width: 100%;
+            font: 'Poppins' sans-serif;
+            color: wheat;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(4, 4, 58);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+            font-weight: bold;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 200px 0;
+        }
+        .leftsection{
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+        .leftsection div{
+            width: 1000%;
+        }
+        .rightsection img{
+            height: 96%;
+            width: 84%;
+            margin: 0 50px;
+        }
+        .name{
+            color: rgb(103, 61, 142);
+        }
+    </style>
 </head>
+
 <body>
-    <div class="container">
-     
-    </div>
+    <header>
+        <nav>
+            <div class="left">Rahul Profilo</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Projects</li>
+                    <li>Content</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi I Am <span class="name"> Rahul </span> 
+                <div>And I Am A Passionate</div>
+                <div>Web Developer</div>
+            </div>
+            <div class="rightsection">
+                <img src="./bg.jpeg" alt="">
+            </div>
+        </section>
+    </main>
     <script src="script.js"></script>
-   
+
 </body>
+
 </html>
